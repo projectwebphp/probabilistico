@@ -1,0 +1,57 @@
+<?php
+	define("TAB_SITE", "Site");
+	define("TAB_ADVANCE", "Advance");
+	
+	define("EDT_NAME", "Name");
+	define("WARNING_SITE_NAME_DISONNCET", "Warning, if you change the name of the website you will be disconnected.");
+	define("EDT_DESC", "Description");
+	define("EDT_KEY", "Keywords");
+	define("CMB_RATING", "Rating");
+	define("EDT_AUTHOR", "Author");
+	define("CMB_LANGUAGE", "Language");
+	define("CMB_SITE_TYPE", "Type site");
+	define("EDT_SITE_IMAGE", "Image site");
+	define("EDT_SITE_IPHONE_IMAGE_57PX", "Small iphone image (57px)");
+	define("EDT_SITE_IPHONE_IMAGE_72PX", "Medium iphone image (72px)");
+    define("EDT_SITE_IPHONE_IMAGE_114PX", "Big iphone image (114px)");
+    define("EDT_SITE_IPHONE_IMAGE_152PX", "Big retina iphone image (152px)");
+	define("EDT_GOOGLE_CODE_TRACKER", "Google Analytics code");
+	define("EDT_GOOGLE_MAP_KEY", "Google maps key");
+	define("CMB_META_ROBOTS", "Robots");
+	define("CMB_META_GOOGLEBOTS", "Googlebots");
+	define("EDT_REVISIT_AFTER", "Revisit after");
+	define("DAYS", "days");
+	define("CMB_CACHING_ALL_PAGES", "Cache all pages");
+	define("EDT_CACHE_TIME", "Cache time");
+	define("SECONDS", "seconds");
+	define("CMB_JQUERY_LOAD_LOCAL", "JQuery local");
+	define("CMB_JS_COMPRESSION_TYPE", "Compression type");
+	define("CMB_DEBUG", "Debug");
+	define("CMB_SEND_ERROR_BY_MAIL", "Send error by email");
+	define("EDT_SEND_ERROR_BY_MAIL_TO", "Email sending error");
+	define("CMB_SEND_JS_ERROR_BY_MAIL", "Send JavaScript error by email");
+	define("SEND_ERROR_BY_MAIL_CMT", "Not for local URL (http://127.0.0.1/)");
+	define("EDT_SEND_BY_MAIL_FILE_EX", "Excluded files");
+	define("EDT_SEND_BY_MAIL_FILE_EX_CMT", "Only file name (no path)<br/>Regexp possible (ie: /^(a-z)*.html$/)");
+	define("SEND_BY_MAIL_FILE_EX_CMT", "Separator commas");
+	define("EDT_MAX_BAD_URL_BEFORE_BANNED", "Nb max URL before banned visitor");
+	define("CMB_SEND_ADMIN_CONNECT_BY_MAIL", "Notify admin connection");
+	define("EDT_SEND_ADMIN_CONNECT_BY_MAIL_TO", "Email notice");
+	define("SEND_ADMIN_CONNECT_BY_MAIL_CMT", "Not for local URL (http://127.0.0.1/)");
+	define("PLEASE_CONFIGURE_SMTP", "Please configure 'Configure send mail' before");
+	define("EDT_CDN_SERVER", "CDN Server");
+	define("CDN_SERVER_CMT", "URL of the <a href='http://en.wikipedia.org/wiki/Content_delivery_network' target='_blank'>CDN server</a>. If set, WSP will automatically use this URL <br/>by default to load your pictures, CSS and Javascript <br/>(increase your server performance).");
+	define("EDT_FORCE_SERVER_NAME", "Force server name");
+	define("PROBLEM_WITH_REDIRECT", "Use when you have problem with redirect"); 
+	define("EDT_DEFAULT_TIMEZONE", "Default Timezone");
+	define("BTN_VALIDATE", "Validate"); 
+	
+	define("CONFIG_FILE", "Configuration");
+	define("CONFIG_FILE_OK", "Your configuration has been saved !");
+	define("CONFIG_FILE_NOT_OK", "Error during saving, please check your configuration !");
+	define("EDT_MAX_SESSION_TIME", "Max session time");
+	define("CMB_JQUERY_VERSION", "JQuery version");
+	define("CMB_JQUERY_UI_VERSION", "JQuery UI version");
+	define('CMB_LITE_PHP_BROWSCAP', 'Lite Browscap');
+	define('LITE_PHP_BROWSCAP_EXPLANATION', '<a href="http://browscap.org/" target="_blank">Browscap</a> is used by WSP to retrieve information<br/>of user\'s browser (mobile version, CSS3, ...)');
+?>

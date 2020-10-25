@@ -1,0 +1,43 @@
+<?php
+	define("NO_PICTURE", "Pas d'image");
+	define("CURRENT_PICTURE", "Image actuelle");
+	define("EDT_BACKGROUND_BODY", "Couleur d'arrière plan");
+	define("EDT_BCK_BODY_PIC", "Image d'arrière plan");
+	define("EDT_BCK_BODY_PIC_REPEAT", "Répétition de l'image d'arrière plan");
+	define("EDT_BCK_BODY_PIC_POSITION", "Position de l'image d'arrière plan");
+	define("EDT_COLOR_BODY", "Couleur du texte");
+	define("EDT_LINK_COLOR", "Couleur des liens");
+	define("EDT_LINK_HOVER_COLOR", "Couleur des liens au-dessus");
+	define("CMB_BCK_PICTURE_1", "Image de fond des Box %s");
+	define("EDT_BCK_1_HEADER", "Couleurs de fond de l'entête %s");
+	define("EDT_COLOR_1_HEADER", "Couleur du texte de l'entête %s");
+	define("EDT_COLOR_1_HEADER_LINK", "Couleur des liens de l'entête %s");
+	define("EDT_COLOR_1_HEADER_LINK_HOVER", "Couleur des liens au-dessus de l'entête %s");
+	define("EDT_BCK_1", "Couleur de fond %s");
+	define("EDT_COLOR_1", "Couleur du texte %s");
+	define("EDT_COLOR_1_LINK", "Couleur des liens %s");
+	define("EDT_COLOR_1_LINK_HOVER", "Couleurs des liens au-dessus %s");
+	define("EDT_BCK_BORDER_TABLE_1", "Couleur de la bordure %s");
+	define("EDT_COLOR_SHADOW", "Couleur d'ombre de la Box %s");
+	define("EDT_STYLE_GRADIENT", "Activer gradient de la Box %s");
+	define("EDT_STYLE_FONT", "Police d'écriture");
+	define("EDT_FONT_SIZE", "Taille d'écriture");
+	define("EDT_STYLE_FONT_SERIF", "Serif");
+	define("EDT_STYLE_JQUERY", "Style jQuery");
+	define("CMB_NB_PREDEFINE_STYLE", "Nb style prédéfinit");
+	define("CMB_CURRENT_PREDEFINE_STYLE", "Style prédéfinit sélectionné");
+	define("VIEW_DIALOGBOX", "Cliquez ici pour afficher une DialogBox");
+	define("DIALOGBOX_TITLE", "Titre DialogBox");
+	define("DIALOGBOX_CONTENT", "Contenu DialogBox");
+	define("TEXT_ON_BODY", "Exemple de texte sur la page");
+	define("LINK_ON_BODY", "Exemple de lien sur la page");
+	define("BODY_TEXT_LINK_NOTE", "Voir le pied de la page");
+	define("WARNING_CHANGE_PLEASE_SAVE", "Attention, veuillez sauvegarder le formulaire avant de changer ce champ.");
+	
+	define("BTN_VALIDATE", "Valider");
+	define("CONFIG_FILE", "Configuration");
+	define("CONFIG_FILE_OK", "Votre configuration a été enregistrée !");
+	define("CONFIG_FILE_NOT_OK", "Erreur lors de la sauvegarde du fichier de configuration !");
+	define('EDT_COLOR_UPLOAD_PROGRESS_BAR', 'Couleur de la barre de progression Upload');
+	define('EDT_BACKCOLOR_SCROLL_TO_TOP', 'Couleur de fond de ScrollToTop');
+?>
